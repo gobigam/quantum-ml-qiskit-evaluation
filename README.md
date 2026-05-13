@@ -69,14 +69,12 @@ jupyter notebook
 
 Datasets Used
 
-Rain Dataset
-Diabetes Dataset
-VLDS Dataset
 Iris Dataset
-Wine Dataset
-Breast Cancer Dataset
-Moons Dataset
-
+Rain Dataset
+Vlds Dataset
+Custom Dataset
+Diabetes Dataset
+Thyroid Dataset
 
 References
 This project is an experimental improvement based on IEEE research on Quantum Machine Learning, with additional datasets (Diabetes, Thyroid) evaluated on both quantum simulators and real IBM Quantum hardware.
