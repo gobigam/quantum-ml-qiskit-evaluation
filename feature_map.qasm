@@ -1,0 +1,5 @@
+OPENQASM 2.0;
+include "qelib1.inc";
+gate gate_ZZFeatureMap(param0,param1,param2,param3) q0,q1,q2,q3 { h q0; h q1; h q2; h q3; p(1.0) q0; p(1.0) q1; p(1.0) q2; p(1.0) q3; cx q0,q1; p(13.95602349499913) q1; cx q0,q1; cx q0,q2; p(13.95602349499913) q2; cx q0,q2; cx q0,q3; p(13.95602349499913) q3; cx q0,q3; cx q1,q2; p(13.95602349499913) q2; cx q1,q2; cx q1,q3; p(13.95602349499913) q3; cx q1,q3; cx q2,q3; p(13.95602349499913) q3; cx q2,q3; h q0; h q1; h q2; h q3; p(1.0) q0; p(1.0) q1; p(1.0) q2; p(1.0) q3; cx q0,q1; p(13.95602349499913) q1; cx q0,q1; cx q0,q2; p(13.95602349499913) q2; cx q0,q2; cx q0,q3; p(13.95602349499913) q3; cx q0,q3; cx q1,q2; p(13.95602349499913) q2; cx q1,q2; cx q1,q3; p(13.95602349499913) q3; cx q1,q3; cx q2,q3; p(13.95602349499913) q3; cx q2,q3; }
+qreg q[4];
+gate_ZZFeatureMap(0.5,0.5,0.5,0.5) q[0],q[1],q[2],q[3];
